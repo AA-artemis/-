@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "candidate_id": "yu-siqi-szu-med-2023",
+    "candidate_name": "于思齐 Siqi Yu",
+    "school": "深圳大学医学院",
+    "major": "临床医学（五年制）",
+    "grade": "本科四年级",
+    "graduation_year": "2027 届",
+    "internship_availability": "4 天/周 × 6 个月",
+    "target_roles": [
+      "A 临床试验（CRA/CRC/临床数据）",
+      "B 医学部管培生",
+      "C 医药代表/学术推广",
+      "D 医学编辑/医学内容"
+    ],
+    "contact_status": "电话/邮箱/微信/城市：待用户补充，简历中用 待补充 占位",
+    "earliest_onboard": "待确认，简历中按 可面议 处理",
+    "updated_at": "2026-09-20"
+  },
+  "claims": [
+    {
+      "id": "claim-identity-001",
+      "source_fact": "于思齐 Siqi Yu，深圳大学医学院临床医学（五年制）2023 级本科四年级，2027 届。意向 4 天/周 × 6 个月实习。",
+      "candidate_wording": "于思齐 Siqi Yu ｜ 深圳大学医学院 临床医学（五年制）2023 级本科四年级 · 2027 届 ｜ 实习意向：4 天/周 × 6 个月 ｜ 到岗：可面议",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "用户基础简历全文"
+        },
+        {
+          "type": "user_confirmation",
+          "location": "对话中确认",
+          "public": false,
+          "note": "4 天/周×6 个月、Office 熟练、4 个方向全选均由用户确认"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑", "HR 开场白"],
+      "interview_details": {
+        "decisions": ["按 2027 届校招节奏安排 4 天/周×6 个月实习"],
+        "difficulties": ["康哲岗位 JD 点名 27 届，用户为 2027 届，符合；27 届指 2027 届毕业生"],
+        "verification": ["用户学籍信息可由深圳大学学工系统核验"],
+        "result": null
+      },
+      "boundary": "联系方式、邮箱、微信、城市待用户补充，简历以 占位 形式呈现，不得代填。",
+      "risk_notes": ["正式投递前必须替换所有 待补充 占位为真实联系方式"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-education-001",
+      "source_fact": "深圳大学医学院临床医学（五年制）2023 级本科四年级，2027 届。CET-4。",
+      "candidate_wording": "深圳大学医学院 · 临床医学（五年制） · 本科 ｜ 2023.09 - 2027.07 ｜ CET-4",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "教育背景与英语等级"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["学制五年制，目前四年级，2027 届毕业"],
+        "difficulties": ["康哲点名 27 届——即 2027 届，用户符合"],
+        "verification": ["学籍可由学校核验；CET-4 可由成绩单核验"],
+        "result": null
+      },
+      "boundary": "未提及 GPA/排名，简历不写 GPA；如目标岗位必须 GPA，需用户补充官方成绩单。",
+      "risk_notes": ["GPA 未提供，不得编造；如目标岗位明确要求，列入待补清单"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-project-storm-ai-001",
+      "source_fact": "阿尔茨海默病染色质高阶结构 + AI 医学图像分析项目，用户为第一负责人。阶段一 STORM 海马神经元染色质成像，获第十届基础医学创新研究论坛国家级铜奖，第二发明人专利审查中。阶段二 AI-STORM（CNN+DeepLabV3+语义分割+DenseNet 分类），AD 模型细胞图像测试准确率约 95%，XYZ 定位精度约 8/9/17 nm，获第十届生物医学工程创新设计竞赛国家级一等奖。",
+      "candidate_wording": "项目第一负责人。建立 STORM 超分辨成像 + AI 图像分析的跨学科研究链路：阶段一完成海马神经元染色质高阶结构 STORM 成像与量化；阶段二将成像结果接入 CNN/DeepLabV3+/DenseNet 图像分割与分类管线，在 AD 模型细胞图像上实现约 95% 分类准确率与约 8/9/17 nm（X/Y/Z）定位精度。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "科研项目 1 全文"
+        },
+        {
+          "type": "award_certificate",
+          "location": "第十届基础医学创新研究论坛 国家级铜奖",
+          "public": false,
+          "note": "阶段一成果"
+        },
+        {
+          "type": "award_certificate",
+          "location": "第十届生物医学工程创新设计竞赛 国家级一等奖",
+          "public": false,
+          "note": "阶段二成果"
+        },
+        {
+          "type": "patent",
+          "location": "AD 超分辨成像/染色质结构相关专利，第二发明人，审查中",
+          "public": false,
+          "note": "用户为第二发明人，非第一发明人"
+        }
+      ],
+      "responsibility_level": "项目负责人",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": [
+          "阶段一选 STORM 超分辨而非共聚焦，是为了在染色质高阶结构层面捕捉 AD 病理变化",
+          "阶段二从手工分析切换到 AI 自动分割，是为了处理大批量 STORM 图像并降低人为偏差",
+          "选 CNN/DeepLabV3+ 做语义分割 + DenseNet 做分类，是因为 STORM 图像的斑点结构与自然图像差异大，需要适配性强的语义分割主干",
+          "专利第二发明人：第一发明人为指导老师或师姐师兄，用户为专利主要实验与数据贡献者"
+        ],
+        "difficulties": [
+          "STORM 图像信噪比低、定位点稀疏，传统分割方法失效",
+          "AD 模型细胞与野生型在染色质结构上的差异需要量化指标，不能只看图像",
+          "XYZ 定位精度受漂移影响，需要漂移校正管线"
+        ],
+        "verification": [
+          "铜奖证书、一等奖证书可提供扫描件",
+          "AD 模型细胞图像分类准确率约 95% 来自测试集，未做外部独立验证",
+          "XYZ 定位精度约 8/9/17 nm 来自定位算法在标准样品上的测量"
+        ],
+        "result": "国家级一等奖 + 国家级铜奖 + 专利审查中 + 阶段二约 95% 测试集准确率"
+      },
+      "boundary": "用户为项目第一负责人（学生身份），但指导老师与实验室提供方向、设备与经费；专利第二发明人，非第一发明人。准确率与定位精度均为内部测试结果，未经外部独立验证。",
+      "risk_notes": [
+        "约 95% 与约 8/9/17 nm 必须保留'约'字，不得改写为精确数字",
+        "专利状态为'审查中'，不得改写为'已授权'",
+        "对外不得写'主导 0→1'，用'项目第一负责人'更稳妥"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-project-apobec-001",
+      "source_fact": "APOBEC 抑制剂肿瘤放疗增敏机制研究，用户为第一负责人。第十届生命科学竞赛（科学探究类）国家级二等奖。CRISPR-Cas9 构建 A3B 敲除细胞；IR+VP16 建立 DNA 损伤模型；Western blot/Co-IP/ChIP/qPCR/免疫荧光/克隆形成/裸鼠荷瘤；解析 A3B-EZH2-XRCC6-Ku70-NHEJ 链条；3,5-二碘酪氨酸抑制剂药物干预。",
+      "candidate_wording": "项目第一负责人。按'靶点发现—机制解析—药物干预—疗效验证'药物研发逻辑推进：用 CRISPR-Cas9 构建 A3B 敲除细胞模型，IR+VP16 建立 DNA 损伤背景；通过 Western blot/Co-IP/ChIP/qPCR/免疫荧光/克隆形成/裸鼠荷瘤等实验，解析 A3B-EZH2-XRCC6-Ku70-NHEJ 通路；以 3,5-二碘酪氨酸作为 APOBEC 抑制剂进行药物干预与疗效验证。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "科研项目 2 全文"
+        },
+        {
+          "type": "award_certificate",
+          "location": "第十届生命科学竞赛（科学探究类）国家级二等奖",
+          "public": false,
+          "note": "项目成果"
+        }
+      ],
+      "responsibility_level": "项目负责人",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": [
+          "选 A3B（APOBEC3B）作为靶点，是因为其在多种实体瘤中高表达且与放疗抵抗相关",
+          "选 CRISPR-Cas9 而非 RNAi，是为了稳定敲除而非瞬时敲低，便于长期表型观察",
+          "选 3,5-二碘酪氨酸作为抑制剂，是基于文献报道与可及性",
+          "用裸鼠荷瘤而非细胞培养做最终疗效验证，是为了在体内层面确认"
+        ],
+        "difficulties": [
+          "A3B 敲除细胞系构建周期长，sgRNA 设计与单克隆筛选需要多轮验证",
+          "Co-IP/ChIP 体系调试困难，抗体选择影响结论可重复性",
+          "裸鼠荷瘤实验周期长、操作门槛高"
+        ],
+        "verification": [
+          "国家级二等奖证书可提供",
+          "Western blot/Co-IP/ChIP/qPCR 原始数据与图片可提供",
+          "裸鼠荷瘤实验记录可提供"
+        ],
+        "result": "国家级二等奖 + 完整通路解析 + 抑制剂体内干预验证"
+      },
+      "boundary": "用户为项目第一负责人（学生身份），指导老师提供方向、经费与实验室；裸鼠荷瘤实验涉及动物伦理审批，由实验室统一申请。药效结果为内部数据，未进入临床前评价。",
+      "risk_notes": [
+        "不得写'药物发现'或'新药研发'，仅是机制研究 + 抑制剂干预验证",
+        "3,5-二碘酪氨酸为文献已知抑制剂，用户未发现新分子"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-project-eye-disease-001",
+      "source_fact": "观眼识病（AI 眼部扫描心血管风险预测）项目，校级大创良好结项，用户为项目骨干，参与医学 AI 数据处理。",
+      "candidate_wording": "校级大学生创新创业训练计划良好结项。作为项目骨干参与 AI 眼部扫描心血管风险预测项目，参与医学影像数据清洗、标注规范制定与模型辅助评估。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "科研项目 3 全文"
+        },
+        {
+          "type": "award_certificate",
+          "location": "校级大创良好结项",
+          "public": false,
+          "note": "项目结项等级"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": [
+          "用户在项目中负责医学 AI 数据处理模块，非项目整体负责人",
+          "项目方向是利用眼底/眼部扫描预测心血管风险，属于医学影像 + AI 应用"
+        ],
+        "difficulties": ["医学影像数据清洗与标注规范制定是该项目的主要瓶颈"],
+        "verification": ["校级大创良好结项证书可提供"],
+        "result": "校级大创良好结项"
+      },
+      "boundary": "用户为项目骨干，非第一负责人；具体职责限于医学 AI 数据处理模块，不涉及模型架构整体设计与临床验证。",
+      "risk_notes": ["不得写'项目负责人'或'主导 AI 模型设计'，只能写'骨干'+'负责数据处理模块'"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-clinical-practice-001",
+      "source_fact": "深圳大学医学院医院临床实践，覆盖呼吸/消化/内分泌/甲状腺/肿瘤/老年医学等科室。",
+      "candidate_wording": "参与深圳大学医学院附属医院临床实践轮转，覆盖呼吸、消化、内分泌、甲状腺、肿瘤、老年医学等科室，熟悉常见病种的主诉-体征-辅助检查-诊断-治疗-随访路径。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "临床实践经历"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表"],
+      "interview_details": {
+        "decisions": ["临床实践为本科教学环节，覆盖多个科室"],
+        "difficulties": ["具体科室轮转时长未补充，需用户确认；'熟悉'为定性表述，避免夸大"],
+        "verification": ["教学实践记录可由学校/医院教学办核验"],
+        "result": null
+      },
+      "boundary": "临床实践为本科教学环节，非独立执业；用户为医学生，无医师执业资格。简历中以'参与'与'熟悉路径'表达，不写'独立诊疗'或'管理床位'。",
+      "risk_notes": ["具体轮转科室时长未补充，可写入待补清单"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-community-screening-001",
+      "source_fact": "在深圳、广州、汕头多地参与 AD 社区筛查。",
+      "candidate_wording": "在深圳、广州、汕头多地参与阿尔茨海默病社区筛查，承担受试者接触、知情同意沟通、量表信息采集与数据录入等环节。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "AD 社区筛查经历"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生"],
+      "interview_details": {
+        "decisions": [
+          "AD 社区筛查是科研项目的外延，涉及受试者接触",
+          "用户在其中的角色更接近 CRC 工作内容：受试者接触、知情同意、信息采集、数据录入"
+        ],
+        "difficulties": ["具体筛查受试者数量、量表类型未补充，可写入待补清单"],
+        "verification": ["由科研项目组内部记录可核验"],
+        "result": null
+      },
+      "boundary": "用户为筛查参与者，非项目统筹人；筛查数量、知情同意具体流程待用户补充。'承担受试者接触'等表述需用户确认是否准确——若用户仅协助，应改写为'协助'。",
+      "risk_notes": [
+        "'承担'与'协助'的边界需用户最终确认，若用户仅做辅助，应改写为'协助'",
+        "具体筛查受试者数量、量表类型未补充"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-sci-sirt7-001",
+      "source_fact": "Siqi Yu, et al. Emerging roles of SIRT7 in metabolic homeostasis and related disorders. BBA-Molecular Basis of Disease, 2026, 1872(8):168343. 第一作者，IF 5.0，JCR Q1。",
+      "candidate_wording": "Siqi Yu, et al. Emerging roles of SIRT7 in metabolic homeostasis and related disorders. BBA-Molecular Basis of Disease, 2026, 1872(8):168343. 第一作者，IF 5.0，JCR Q1。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "SCI 论文条目"
+        },
+        {
+          "type": "publication",
+          "location": "https://www.sciencedirect.com/science/article/pii/S0925443126000617",
+          "public": true,
+          "note": "DOI/期刊页待用户补充最终链接，建议用户从 PubMed/期刊页确认 DOI"
+        }
+      ],
+      "responsibility_level": "主导方案或交付",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["用户为第一作者，负责综述框架与正文撰写"],
+        "difficulties": ["IF 5.0 与 JCR Q1 为期刊指标，非论文单篇指标；如面试官追问，需说明这是期刊影响因子"],
+        "verification": ["论文已发表，可通过 DOI 或期刊页核验"],
+        "result": "BBA-MBOD 已发表，第一作者"
+      },
+      "boundary": "用户为第一作者，但通讯作者为指导老师；IF 5.0 是期刊影响因子，不是论文引用数。综述（Review）而非原创研究（Article），写作量与文献整合能力是亮点，不是实验数据。",
+      "risk_notes": [
+        "DOI 链接待用户补充最终期刊页地址",
+        "明确区分综述 vs 原创研究，避免被误读为实验性论文"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-sci-super-resolution-001",
+      "source_fact": "在投：Siqi Yu‡, Zhe Wen‡, et al. Application of super-resolution imaging Technology in the Study of Alzheimer's disease pathogenesis. 共同第一作者 Review。",
+      "candidate_wording": "Siqi Yu‡, Zhe Wen‡, et al. Application of super-resolution imaging technology in the study of Alzheimer's disease pathogenesis. 共同第一作者 Review（在投）。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "在投论文条目"
+        }
+      ],
+      "responsibility_level": "主导方案或交付",
+      "verification_status": "待确认",
+      "allowed_uses": [],
+      "interview_details": {
+        "decisions": ["‡ 符号表示共同第一作者，用户与 Zhe Wen 并列第一"],
+        "difficulties": ["在投状态，未确定期刊与接收时间；正式简历 PDF 中不得列入'已发表'区段"],
+        "verification": ["需用户补充投稿系统截图或通讯作者邮箱确认函"],
+        "result": null
+      },
+      "boundary": "在投论文，尚未被接收。正式 PDF 中如出现，必须标注'在投/Under Review'状态，不得写'已接收'或'已发表'。",
+      "risk_notes": [
+        "正式 PDF 中可写'在投'，但不得作为'已发表 SCI'出现",
+        "目标期刊、IF、投稿时间均未补充"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-patent-001",
+      "source_fact": "AD 超分辨成像/染色质结构相关专利，第二发明人，审查中。",
+      "candidate_wording": "AD 超分辨成像/染色质结构相关发明专利，第二发明人，专利审查中。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "专利条目"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["用户为第二发明人，主要贡献在实验数据与成像方法；第一发明人为指导老师或项目负责人"],
+        "difficulties": ["专利号、申请日、申请人单位均未补充，需用户从受理通知书补充"],
+        "verification": ["可由专利受理通知书或国家知识产权局公开信息核验"],
+        "result": "专利审查中"
+      },
+      "boundary": "第二发明人，非第一发明人；'审查中'非'已授权'。专利权归属于学校或申请人单位，用户不享有专利权，仅享有发明人署名权。",
+      "risk_notes": [
+        "不得写'已授权专利'",
+        "专利号、申请日、申请人单位待用户补充"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-competition-001",
+      "source_fact": "第十届生物医学工程创新设计竞赛国家级一等奖；第十届生命科学竞赛（科学探究类）国家级二等奖；第十届基础医学创新研究论坛国家级铜奖；2026 生命科学竞赛省级三等奖；大创省级立项良好结项。",
+      "candidate_wording": "第十届全国大学生生物医学工程创新设计竞赛 国家级一等奖；第十届全国大学生生命科学竞赛（科学探究类） 国家级二等奖；第十届基础医学创新研究论坛 国家级铜奖；2026 生命科学竞赛 省级三等奖；省级大学生创新创业训练计划立项 良好结项。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "竞赛奖项清单"
+        },
+        {
+          "type": "award_certificate",
+          "location": "5 份证书扫描件待用户补充",
+          "public": false,
+          "note": "可由用户后续提供扫描件核验"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["5 项竞赛奖项均可由证书核验"],
+        "difficulties": ["各奖项对应的具体项目名称需在简历中标注，避免与上文科研项目脱节"],
+        "verification": ["5 份证书可提供扫描件"],
+        "result": "国家级一等奖/二等奖/铜奖 + 省级三等奖 + 省级大创良好结项"
+      },
+      "boundary": "用户为对应项目第一负责人或骨干；具体每个奖项中用户的角色已在对应项目 claim 中说明。奖项属项目成果，不属个人独立成果。",
+      "risk_notes": [],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-scholarship-001",
+      "source_fact": "深圳市瀚宇社会奖学金；深圳市精诚社会奖学金；深圳大学创新创业校级奖学金×2。",
+      "candidate_wording": "深圳市瀚宇社会奖学金；深圳市精诚社会奖学金；深圳大学创新创业校级奖学金（2 次）。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "奖学金清单"
+        },
+        {
+          "type": "user_confirmation",
+          "location": "对话中用户补充确认",
+          "public": false,
+          "note": "用户主动补充 3 项奖学金"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["3 项奖学金均为社会/校级荣誉，非国家奖学金"],
+        "difficulties": ["瀚宇/精诚为深圳市社会奖学金，由企业或社会团体评定；校级奖学金由学校评定"],
+        "verification": ["3 份奖学金证书可提供扫描件"],
+        "result": null
+      },
+      "boundary": "3 项奖学金均为荣誉性资助，非国家奖学金或学术排名证明；不要写'国家级奖学金'。",
+      "risk_notes": ["不得写'国家奖学金'或'国家级奖学金'，3 项均为市级/校级"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-skill-experimental-001",
+      "source_fact": "原代海马神经元分离培养/细胞培养/Western blot/Co-IP/ChIP/qPCR/CCK-8/流式细胞周期/免疫荧光/克隆形成/Morris 水迷宫/裸鼠荷瘤/STORM 超分辨成像。",
+      "candidate_wording": "细胞与分子生物学：原代海马神经元分离培养、细胞培养、Western blot、Co-IP、ChIP、qPCR、CCK-8、流式细胞周期、免疫荧光、克隆形成；动物实验：裸鼠荷瘤、Morris 水迷宫；超分辨成像：STORM 超分辨成像。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "实验技能清单"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["技能清单按细胞与分子生物学/动物实验/超分辨成像分类，便于面试官按方向追问"],
+        "difficulties": ["各项技能的熟练度（操作过几次/能独立完成还是带教完成）未补充"],
+        "verification": ["实验原始数据、图片、记录可提供"],
+        "result": null
+      },
+      "boundary": "技能清单为已学/已用过，不代表'熟练专精'；STORM 与裸鼠荷瘤等高门槛操作，需在实验室带教下完成。",
+      "risk_notes": ["简历用'掌握/熟悉/已学'等分级动词，避免统一用'精通'"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-skill-ai-001",
+      "source_fact": "CNN/DeepLabV3+/DenseNet/STORM 图像分析/医学影像数据处理。",
+      "candidate_wording": "医学 AI 与图像分析：CNN、DeepLabV3+ 语义分割、DenseNet 图像分类；STORM 超分辨图像分析与医学影像数据处理。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "AI 技能清单"
+        },
+        {
+          "type": "project_evidence",
+          "location": "AI-STORM 项目（claim-project-storm-ai-001）",
+          "public": false,
+          "note": "技能在项目中的应用证据"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["AI 技能主要在 AI-STORM 项目中应用，不是独立工程能力"],
+        "difficulties": ["AI 编程框架（PyTorch/TensorFlow）未明确，需用户补充；模型训练环境未补充"],
+        "verification": ["AI-STORM 项目代码与训练记录可提供"],
+        "result": null
+      },
+      "boundary": "AI 技能集中在医学图像分析场景，不是通用 AI 工程能力；模型训练依赖实验室 GPU 资源，非用户自建集群。",
+      "risk_notes": [
+        "PyTorch/TensorFlow 框架未明确，简历中可写'深度学习框架'或由用户补充具体框架",
+        "不得写'AI 工程师'或'算法工程师'方向，仅为'医学 AI 应用'能力"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-skill-stats-001",
+      "source_fact": "SPSS/R 基础/医学统计/相关性分析/AI 辅助编程。学过医学统计课程。",
+      "candidate_wording": "医学统计与数据分析：医学统计学课程、SPSS、R 基础、相关性分析、t 检验/方差分析/卡方检验/Logistic 回归/Cox/KM 生存分析/ROC（按课程范围声明）；AI 辅助编程。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "统计与编程技能"
+        },
+        {
+          "type": "user_confirmation",
+          "location": "对话中确认已学医学统计课程",
+          "public": false,
+          "note": "GCP 基本概念与医学统计课程已学"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["医学统计为课程级别，含 t 检验/ANOVA/卡方/Logistic/Cox/KM/ROC 等常用方法"],
+        "difficulties": ["用户自评'基础'，不应写'精通统计'；具体方法掌握程度需面试中确认"],
+        "verification": ["课程成绩单可提供"],
+        "result": null
+      },
+      "boundary": "用户为医学统计课程学习者，不是统计师或生物统计专家。简历中按'已学/熟悉'分级声明，避免写'熟练运用 Cox/Cox 回归建模'。",
+      "risk_notes": [
+        "具体统计方法清单中，Cox/KM/ROC 等是否在课程中覆盖需用户最终确认",
+        "如面试官追问具体实现代码，用户应说明在 R/SPSS 中完成"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-skill-gcp-001",
+      "source_fact": "学过 GCP 基本概念。",
+      "candidate_wording": "已学 GCP（药物临床试验质量管理规范）基本概念，熟悉临床试验、伦理审查、受试者保护等基础术语。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中确认",
+          "public": false,
+          "note": "GCP 基本概念已学"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生"],
+      "interview_details": {
+        "decisions": ["GCP 为基本概念级别，非持证 CRA 资质"],
+        "difficulties": ["GCP 证书未补充，简历中按'已学基本概念'表述"],
+        "verification": ["课程证明或学习成绩单可提供"],
+        "result": null
+      },
+      "boundary": "用户为 GCP 基本概念学习者，未取得 GCP 证书；不得写'GCP 持证'或'GCP 培训合格'。",
+      "risk_notes": ["如目标岗位明确要求 GCP 证书，需用户补充证书或参加系统培训"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-skill-lang-001",
+      "source_fact": "CET-4。",
+      "candidate_wording": "CET-4；具备医学文献英文阅读能力（综述写作中检索与整合英文文献）。",
+      "sources": [
+        {
+          "type": "document",
+          "location": "d:/codex/shixi/我的相关资料/基础简历.docx",
+          "public": false,
+          "note": "英语等级"
+        },
+        {
+          "type": "project_evidence",
+          "location": "SIRT7 SCI 综述（claim-sci-sirt7-001）",
+          "public": false,
+          "note": "英文文献阅读能力的间接证据"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["英语等级为 CET-4，未提供 CET-6/雅思/托福"],
+        "difficulties": ["医学文献阅读能力为间接证据，无标准化考试成绩支持"],
+        "verification": ["CET-4 成绩单可提供；SCI 综述可核验"],
+        "result": null
+      },
+      "boundary": "CET-4 是基础英语等级，不写'英语流利'或'商务英语'。医学文献阅读能力由 SCI 综述间接证明，但不能写'英文医学写作能力'为独立能力。",
+      "risk_notes": ["不得写'CET-6'或'雅思'，未提供；不写'商务英语'"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-club-innovation-001",
+      "source_fact": "深圳大学学生部科创协会，成员（非任职），2023-2025，参与科教宣传、科研创新相关活动。",
+      "candidate_wording": "深圳大学学生部科创协会 成员（2023-2025）：参与科教宣传、科研创新相关活动的组织与执行。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中补充",
+          "public": false,
+          "note": "用户主动补充社团经历"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["用户明确为'成员'，非任职（无部长/主席等职务）"],
+        "difficulties": ["具体活动数量、规模、用户在活动中的具体职责未补充"],
+        "verification": ["社团证明可向协会指导老师核验"],
+        "result": null
+      },
+      "boundary": "用户为普通成员，无任职头衔；不得写'部长''主席''负责人'。具体活动场次与职责待用户补充。",
+      "risk_notes": [
+        "不得写'主导'或'负责组织'，只能写'参与'",
+        "具体活动数量、规模待补"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-club-debate-001",
+      "source_fact": "参与深圳大学医学部辩论队，具体职务、时间及比赛经历暂未补充。",
+      "candidate_wording": "深圳大学医学部辩论队 成员：参与队内训练与比赛活动（具体时间与比赛经历待补充）。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中补充",
+          "public": false,
+          "note": "用户主动补充辩论队经历"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "待确认",
+      "allowed_uses": [],
+      "interview_details": {
+        "decisions": ["用户明确为'参与'，无具体职务/时间/比赛经历"],
+        "difficulties": ["完全缺事实支撑，正式简历中应慎重列入"],
+        "verification": ["需用户补充时间、职务、参赛经历"],
+        "result": null
+      },
+      "boundary": "用户未提供任何具体细节。简历中如出现，必须以'参与'+'待补充'处理；正式 PDF 中建议不列入，或仅作为校园经历一行说明。",
+      "risk_notes": [
+        "正式 PDF 中可写一行'深圳大学医学部辩论队成员（时间待补）'，但不写赛事奖项或荣誉",
+        "如用户后续补充，再升级表述"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-class-publicity-001",
+      "source_fact": "23 级临床 06 班宣传委员，连续四年（2023-2027）。",
+      "candidate_wording": "23 级临床医学 06 班 宣传委员（2023-2027，连续四年）：负责班级活动宣传、推文撰写与现场记录。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中补充",
+          "public": false,
+          "note": "用户主动补充班级宣传委员经历"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": ["连续四年任班级宣传委员，是用户可证明的长期职责经历"],
+        "difficulties": ["具体推文数量、活动场次未补充；'连续四年'是事实，但具体年度产出未量化"],
+        "verification": ["班级工作记录、推文截图可提供"],
+        "result": null
+      },
+      "boundary": "班级宣传委员为基层学生干部，非院系/校级职务；具体推文数量与活动场次待用户补充。",
+      "risk_notes": ["不得写'院宣传部长'或'校宣传负责人'；'连续四年'可保留，但'大量推文'按 claim-publicity-activities-001 规则降级"],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-publicity-activities-001",
+      "source_fact": "组织过很多次科教宣传会议；多次担任活动主持人；参与/组织过大体老师相关宣传会；参与过大量医学部相关比赛、科研项目的宣讲会（涉及大创、挑战杯等学生科研创新项目）；多次承担医学相关活动的宣传工作；撰写过大量微信公众号推文（长期、持续）。",
+      "candidate_wording": "长期承担医学科教宣传与新媒体内容产出：参与组织科教宣传会议、医学部比赛/科研项目宣讲会（大创、挑战杯等学生科研创新项目）、大体老师相关宣传会等系列活动；多次担任活动主持人；持续撰写医学部科教活动、医学竞赛、科研创新相关微信公众号推文。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中补充",
+          "public": false,
+          "note": "用户主动补充科教宣传活动素材"
+        }
+      ],
+      "responsibility_level": "负责模块",
+      "verification_status": "已确认",
+      "allowed_uses": ["B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": [
+          "用户明确表示'很多次/大量/非常多'均为长期持续性产出，非具体数字",
+          "简历中按'长期''持续''多次'表述，避免编造具体数字",
+          "涉及大创、挑战杯等学生科研创新项目宣讲会，可作为管培生/医学编辑方向的强证据"
+        ],
+        "difficulties": [
+          "活动场次、推文数量、主持人次数均未量化",
+          "'参与/组织过'边界模糊——用户在其中的具体角色需面试中确认"
+        ],
+        "verification": [
+          "公众号推文截图可提供（账号、推文链接由用户补充）",
+          "活动现场照片可提供"
+        ],
+        "result": null
+      },
+      "boundary": "用户明确表述为'多次/大量/长期/持续'，未提供具体数字。简历中所有相关表述必须降级为'长期''持续''多次'或写'具体数字待补'，不得编造场次/篇数/人数。'参与/组织过'按用户原话保留，不升级为'主导'或'负责人'。",
+      "risk_notes": [
+        "所有'多次/大量/非常多'必须降级为'长期/持续/多次'",
+        "不得写'主导会议'或'负责人'",
+        "推文具体篇数、活动场次、主持人次数待用户补充"
+      ],
+      "last_verified": "2026-09-20"
+    },
+    {
+      "id": "claim-target-roles-001",
+      "source_fact": "用户意向 4 个方向：A 临床试验（CRA/CRC/临床数据）；B 医学部管培生；C 医药代表/学术推广；D 医学编辑/医学内容。4 天/周 × 6 个月。已选全部 4 个方向。",
+      "candidate_wording": "目标岗位（4 份简历分别针对）：A 临床试验方向（CRA/CRC/临床数据收集）；B 医学部管培生；C 医药代表/学术推广实习生；D 医学编辑/医学内容实习生。",
+      "sources": [
+        {
+          "type": "user_confirmation",
+          "location": "对话中确认",
+          "public": false,
+          "note": "4 个方向全选、4 天/周×6 个月"
+        },
+        {
+          "type": "job_screenshot",
+          "location": "d:/codex/shixi/我的相关资料/职位截图/",
+          "public": false,
+          "note": "12 张职位截图，OCR 识别 16 个医学相关岗位"
+        }
+      ],
+      "responsibility_level": "参与",
+      "verification_status": "已确认",
+      "allowed_uses": ["A-临床试验", "B-管培生", "C-医药代表", "D-医学编辑"],
+      "interview_details": {
+        "decisions": [
+          "A 临床试验：泰格医药 CRA Intern、北必生命 CRA、CRC Intern 2027 校招、亚辉龙临床试验实习生、深圳联感临床数据收集、杭州心希望患者招募",
+          "B 管培生：卡本医疗器械 5-8K·13 薪应届本科（最匹配）",
+          "C 医药代表：正大天晴肿瘤学术推广、拜耳医药代表实习生、信立泰实习医药代表、泰诺麦博、康哲（27 届）",
+          "D 医学编辑：深圳医路（已停止招聘，备选）"
+        ],
+        "difficulties": ["D 方向目标公司已停止招聘，需用户补充新目标公司"],
+        "verification": ["职位截图可重新查看"],
+        "result": null
+      },
+      "boundary": "用户简历事实基础一致，4 份简历共用同一份账本，避免跨版本互相矛盾的'已确认'主张。",
+      "risk_notes": [],
+      "last_verified": "2026-09-20"
+    }
+  ]
+}
